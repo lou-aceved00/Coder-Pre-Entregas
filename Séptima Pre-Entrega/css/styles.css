@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Google Sans", sans-serif;
+    background-color: #f6f1eb;
+    color: #131010;
+}
+
+header {
+    font-family: "Gelasio", serif;
+    text-align: center;
+    padding: 30px;
+    color: #3f0d12;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.formulario-productos {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.producto h3 {
+    margin-bottom: 10px;
+}
+
+.producto p {
+    margin-bottom: 8px;
+}
+
+.btn-eliminar {
+    margin-top: 10px;
+}
+
+.mensaje-exito {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.mensaje-eliminado {
+    margin-top: 15px;
+    font-weight: bold;
+}

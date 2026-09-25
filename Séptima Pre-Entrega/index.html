@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Barro & Fuego | Catálogo</title>
+</head>
+<body>
+
+    <header>
+        <h1>Barro & Fuego</h1>
+        <p>Gestión de productos</p>
+    </header>
+
+    <main>
+        <section class="formulario-productos">
+            <h2>Agregar producto</h2>
+
+            <form id="form-producto">
+                <input
+                type="text"
+                id="nombre"
+                placeholder="Nombre del producto"
+                required
+                >
+                <input
+                type="number"
+                id="precio"
+                placeholder="Precio"
+                required
+                >
+                <input
+                type="text"
+                id="categoria"
+                placeholder="Categoría"
+                required
+                >
+
+                <button type="submit">
+                    Agregar producto
+                </button>
+            </form>
+            <p id="mensaje"></p>
+        </section>
+
+        <section class="catalogo">
+            <h2>Nuestros productos</h2>
+
+            <input
+            type="text"
+            id="buscador"
+            placeholder="Buscar producto..."
+            >
+
+            <div id="contenedor-productos"></div>
+        </section>
+    </main>
+
+<script src="./js/main.js"></script>    
+</body>
+</html>
