@@ -1,0 +1,73 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Remera",
+    "precio": 50000,
+    "categoria": "Indumentaria",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "nombre": "Pantalón",
+    "precio": 60000,
+    "categoria": "Indumentaria",
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatillas",
+    "precio": 150000,
+    "categoria": "Calzado",
+    "stock": 5
+  },
+  {
+    "id": 4,
+    "nombre": "Buzo",
+    "precio": 65000,
+    "categoria": "Indumentaria",
+    "stock": 6
+  },
+   {
+    "id": 5,
+    "nombre": "Sandalias",
+    "precio": 80000,
+    "categoria": "Calzado",
+    "stock": 10
+  },
+   {
+    "id": 6,
+    "nombre": "Botas",
+    "precio": 98000,
+    "categoria": "Calzado",
+    "stock": 6
+  },
+   {
+    "id": 7,
+    "nombre": "Campera",
+    "precio": 120000,
+    "categoria": "Indumentaria",
+    "stock": 10
+  },
+   {
+    "id": 8,
+    "nombre": "Ojotas Nike",
+    "precio": 40000,
+    "categoria": "Calzado",
+    "stock": 15
+  },
+   {
+    "id": 9,
+    "nombre": "Bermuda de Jean",
+    "precio": 65000,
+    "categoria": "Indumentaria",
+    "stock": 6
+  },
+   {
+    "id": 10,
+    "nombre": "Short de Jean",
+    "precio": 50000,
+    "categoria": "Indumentaria",
+    "stock": 7
+  }
+]

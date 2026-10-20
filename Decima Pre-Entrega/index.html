@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi tienda de productos</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link
+        rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi tienda de productos</h1>
+        <p>Explorá nuestros productos y agregalos a tu carrito.</p>
+    </header>
+
+    <div id="mensaje-informativo"></div>
+
+    <main>
+        <section>
+            <h2>Productos disponibles</h2>
+
+            <p id="estado-carga" role="status" aria-live="polite">
+                Cargando productos...
+            </p>
+
+            <div id="productos-container"></div>
+        </section>
+
+        <section id="carrito-section">
+            <h2>Mi carrito</h2>
+
+            <div id="carrito-container"></div>
+
+            <p id="mensaje-carrito" aria-live="polite"></p>
+
+            <button id="vaciar-carrito" type="button">
+                Vaciar carrito
+            </button>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
